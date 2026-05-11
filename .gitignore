@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+env/
+venv/
+myenv/
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# FastAPI / Uvicorn logs
+*.log
+
+# SQLite database
+*.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
