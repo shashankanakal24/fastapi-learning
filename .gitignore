@@ -3,36 +3,41 @@ __pycache__/
 *.py[cod]
 
 # Virtual Environment
-env/
-venv/
 myenv/
 
-# Environment variables
+# Environment Variables
 .env
+.env.*
 
-# VS Code settings
+# VS Code / IDE
 .vscode/
-
-# PyCharm settings
 .idea/
 
-# FastAPI / Uvicorn logs
+# Logs
 *.log
 
-# SQLite database
-*.db
+# Pytest / Coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
-# Distribution / packaging
+# Build files
 build/
 dist/
 *.egg-info/
+.eggs/
 
-# Test cache
-.pytest_cache/
+# SQLite Database
+*.db
+*.sqlite3
 
-# Mypy cache
-.mypy_cache/
-
-# OS files
+# OS Files
 .DS_Store
 Thumbs.db
+
+# FastAPI / Process files
+*.pid
+
+# Ignore tree.py
+tree.py

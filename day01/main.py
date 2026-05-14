@@ -9,3 +9,5 @@ def hello():
 @app.get("/about")
 def about():
     return {'message':'My name is Shashank'}
+
+#uvicorn main:app --reload
